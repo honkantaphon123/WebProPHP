@@ -3,17 +3,16 @@
 <body>
 <?php
 $x = 100;
-$y = "200";
-$z = '300';
+$y = 200;
+$z = 300;
 $add = $x + $y;
-$sub = $z - $y;
-$message = "Hello World";
-echo $x; echo "<br />";
-echo $y; echo "<br />";
-echo $z; echo "<br />";
-echo $add; echo "<br />";
-echo $sub; echo "<br />";
-echo $message; echo "<br />";
+$sub = $z - $x ;
+$mul = $y * $z;
+$div = $mul / $z ;
+echo("ผลบวก ".$x." + ".$y." = ".$add);
+echo("ผลลบ ".$z." - ".$x." = ".$sub);
+echo("ผลคูณ ".$y." x ".$z." = ".$mul);
+echo("ผลหาร ".$mul." / ".$z." = ".$div);
 ?>
 </body>
 </html>
