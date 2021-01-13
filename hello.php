@@ -6,12 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
-    <h2>Prachinburi</h2>
     <?php
-        echo "hello";
-        echo("dd");
-    
-    >
+       echo "<h1>hello</h1><br> KMUTNB";
+        ?>
 </body>
 </html>
