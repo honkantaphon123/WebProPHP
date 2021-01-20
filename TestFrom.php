@@ -1,12 +1,10 @@
-<!DOCTYPE HTML>
-<html>  
+<!DOCTYPE html>
+<html>
 <body>
-
-<form action="welcome_get.php" method="get">
-Name: <input type="text" name="name"><br>
-E-mail: <input type="text" name="email"><br>
-<input type="submit">
-</form>
-
+    <form action="welcome_get.php.php" method="get">
+    Num X: <input type="text" name="x"><br>
+    Num Y: <input type="text" name="y"><br>
+    Operator : <input type="text" name="operator"><br>
+    <input type="submit">
 </body>
 </html>

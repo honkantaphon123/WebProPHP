@@ -1,12 +1,14 @@
 <html>
 <body>
 
-    Welcome
+    Anser
+    <br>
+    Num x
     <?php
         echo $_GET["name"];
     ?>
     <br>
-    Your email address is :
+    Num y
     <?php
         echo $_GET["email"];
     ?>
